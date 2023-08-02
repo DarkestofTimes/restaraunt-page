@@ -1,3 +1,5 @@
+import mainImage from "../img/photo-1572715376701-98568319fd0b.avif";
+
 export const renderMain = () => {
   const header = document.querySelector("#header");
   const mainPage = `
@@ -6,7 +8,7 @@ export const renderMain = () => {
             <h1 class="mainHeading">fancy heading</h1>
             <img
                 class="mainImg"
-                src="../img/photo-1572715376701-98568319fd0b.avif"
+                src="${mainImage}"
                 alt="chef working of a plate"
                 width="320"
                 height="320"
