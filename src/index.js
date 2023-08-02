@@ -15,7 +15,6 @@ buttons.forEach((button) => {
   button.addEventListener("click", (ev) => {
     const target = ev.target.closest(".header__button");
     clearPage();
-    console.log(target.id);
     renderPage(target.id, renderMain, renderMenu, renderContact);
   });
 });
